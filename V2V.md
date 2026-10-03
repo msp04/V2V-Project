@@ -17,7 +17,7 @@ Unlike a conventional Wi-Fi setup, the communicating devices do not necessarily 
 
 A simplified communication model looks like this:
 
-ESP32 A → ESP-NOW → ESP32 B
+ESP32 A(sender) → ESP-NOW → ESP32 B(receiver)
 
 The devices can exchange relatively small data packets directly over the wireless link.
 
